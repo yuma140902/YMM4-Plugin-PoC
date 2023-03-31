@@ -4,7 +4,7 @@
     {
         static DummyPlugin()
         {
-
+            System.Windows.Forms.MessageBox.Show("Hello from DLL");
         }
 
         public string Name => "My Dummy Plugin";

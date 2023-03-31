@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>YMM4_Plugin_PoC</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<RootNamespace>YMM4_Plugin_PoC</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="YukkuriMovieMaker.General">
-      <HintPath>..\..\..\..\bin\YukkuriMovieMaker4\YukkuriMovieMaker.General.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="YukkuriMovieMaker.General">
+			<HintPath>..\YukkuriMovieMaker4\YukkuriMovieMaker.General.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 
 </Project>
